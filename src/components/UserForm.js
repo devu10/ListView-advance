@@ -46,7 +46,10 @@ export const UserForm = ({ addUser }) => {
             />
           </div>
           <div className="col-md-3 d-grid">
-            <button className="btn btn-primary">Add user</button>
+            <button style={{
+              background: "radial-gradient(circle at center, white, grey, black)",
+              bordeRadius: "5px"
+            }}>Add user</button>
           </div>
         </div>
       </form>
