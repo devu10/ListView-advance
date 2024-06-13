@@ -16,7 +16,7 @@ const App = () => {
       {/* form component */}
       <UserForm addUser={addUser} />
       {/* table component */}
-      <UserTable />
+      <UserTable userList = {userList}/>
     </div>
   );
 };
